@@ -9,4 +9,4 @@ def test_get_home(web_client):
 #     assert response.data.decode("utf-8") == "I have been to Sweden!"
 
 def test_assertion_fail():
-    assert 2 + 2 == 5
+    assert 2 + 2 == 4
